@@ -20,7 +20,7 @@ const hexArr = [
 function updateColor() {
   let colorString = "#";
   for (let i = 0; i <= 6; i++) {
-    const randomNumber = Math.floor(Math.random() * 16);
+    const randomNumber = Math.floor(Math.random() * 17);
     colorString += hexArr[randomNumber];
     document.body.style.backgroundColor = colorString;
   }
