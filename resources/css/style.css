@@ -1,21 +1,34 @@
+/* find a silly font to use and import it from google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
 
+/* set all elements to these properties */
 * {
+  /* the text-align property allows us to align text on the page */
   text-align: center;
+  /* the font-family property allows us to set the primary font style and backup fonts */
   font-family: Helvetica, Arial, sans-serif;
+  /* the font-size property allows us to set the font-size of the selected element */
   font-size: 22px;
 }
 
+/* set our first header to be large and set it to our silly font */
 h1 {
   font-size: 50px;
   font-family: "Silkscreen", cursive;
-  margin-bottom: 0;
 }
 
 button {
+  /* padding allows us to set the padding of an element */
   padding: 20px;
+  /* background-color sets the background color of an element */
   background-color: black;
+  /* color sets the foreground color of an element */
   color: white;
+  /* border-radius allows us to round the edges of our elements border for a cleaner look */
   border-radius: 5px;
+  /* border is a shorthand for border-color, border-style, border-width. */
+  /* border-width modifies the sizing of the border */
+  /* border-style modifies the type of border, there are a number of different types, using solid here */
+  /* border-color modifies the color of the border */
   border: 1px solid darkgray;
 }

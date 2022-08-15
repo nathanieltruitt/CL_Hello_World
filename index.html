@@ -1,18 +1,36 @@
+<!-- document type declaration, by default is typically set to html to use the latest version of html -->
 <!DOCTYPE html>
+<!-- the html tag is where we store all of our html code, we use the lang attribute to define the language of our page -->
 <html lang="en">
+  <!-- the head tag contains the metadata, links, script and style tags -->
   <head>
+    <!-- meta tags describe metadata information for the web page -->
+    <!-- this meta tag sets the unicode character set-->
     <meta charset="UTF-8" />
+    <!-- the tag below tells IE to use the highest mode available. Please don't use internet explorer. -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- this meta tag sets the options for the viewport, this can be helpful for devices with different screen sizes -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- the script tag allows us to link our javascript file with the src attribute -->
     <script src="app.js"></script>
+    <!-- the link tag allows us to link our css file -->
     <link rel="stylesheet" href="resources/css/style.css" />
+    <!-- the title of our page, this with show up in the browser tab. -->
     <title>Color Changer</title>
   </head>
+  <!-- the body tag contains all of our html that will be rendered to the browser page -->
   <body>
+    <!-- section is a semantic html tag that we can use to group our html code together for organization and search engine optimization -->
     <section>
+      <!-- heading tags, used for paragraph headers within a page, these are numbered from h1 to h6 -->
+      <!-- heading 1 -->
       <h1>Hello World!</h1>
+      <!-- heading 2 -->
+      <!-- the class attribute is used to apply styling and in javascript as well as organization, elements can have any number of classes -->
       <h2 class="heading-2">Welcome to the codefi bootcamp</h2>
 
+      <!-- button that changes the background color -->
+      <!-- type tells us what kind of button, onclick allows us to assign a javascript function to the button -->
       <button type="button" class="btn-primary" onclick="updateColor()">
         Click Me!
       </button>
