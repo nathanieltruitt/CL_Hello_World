@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
+
+* {
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 22px;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: "Silkscreen", cursive;
+  margin-bottom: 0;
+}
+
+button {
+  padding: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid darkgray;
+}
