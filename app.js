@@ -25,8 +25,8 @@ function updateColor() {
   // use a for loop to create a random hex color
   for (let i = 0; i <= 6; i++) {
     // generate random number
-    const randomNumber = Math.floor(Math.random() * 16);
-    // use random number to as the index for the hexArr array
+    const randomNumber = Math.floor(Math.random() * 17);
+    // add random hex digit by using the random number as an index on hexArr
     colorString += hexArr[randomNumber];
     // change the background color of the body to the randomly generated hex color
     document.body.style.backgroundColor = colorString;
